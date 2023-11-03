@@ -9,8 +9,8 @@ body{
 
 .game_btn{
     
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 2px solid rgba(180, 180, 180,0.5);
+    border-bottom: 2px solid rgba(180, 180, 180,0.5);
     height:50px;
 }
 
@@ -29,7 +29,7 @@ body{
 }
 
 .nav1{
-    /* border-bottom:1px solid red; */
+    /* border-bottom:2px solid red; */
     width:80%;
     height: 60px;
     /* background-color: black; */
@@ -52,7 +52,7 @@ body{
     left:-60px;
 
     background:transparent;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgba(180, 180, 180,0.2)
    
 }
 
@@ -66,7 +66,7 @@ body{
     left:-50px;
 
     background:transparent;
-    border-right: 1px solid white;
+    border-right: 2px solid rgba(180, 180, 180,0.2);
     transform: skew(-33deg);
 }
 
@@ -83,8 +83,8 @@ body{
     right:0px;
 
     background:transparent;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
+    border-right: 2px solid rgba(180, 180, 180,0.5);
+    border-left: 2px solid rgba(180, 180, 180,0.5);
     transform: skew(-30deg);
 }
 .btn2::before{
@@ -98,7 +98,7 @@ body{
 
     background:transparent;
     
-    border-right: 1px solid white;
+    border-right: 2px solid rgba(180, 180, 180,0.5);
     transform: skew(-30deg);
 }
 .btn3::before{
@@ -112,7 +112,7 @@ body{
 
     background:transparent;
     
-    border-right: 1px solid white;
+    border-right: 2px solid rgba(180, 180, 180,0.5);
     transform: skew(-30deg);
 }
 .location{
@@ -134,7 +134,7 @@ body{
     left:20px;
 
     background:transparent;
-    border-right: 1px solid white;
+    border-right: 2px solid rgba(180, 180, 180,0.2);
     transform: skew(-33deg);
 }
 .icon1,.icon2,.icon3,.icon4,.icon5{
@@ -152,6 +152,6 @@ body{
     left:15px;
 
     background:transparent;
-    border-right: 1px solid white;
+    border-right: 2px solid rgba(180, 180, 180,0.2);
     transform: skew(-33deg);
 }
