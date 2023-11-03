@@ -1,0 +1,157 @@
+body{
+    color: white;
+    background-color: rgb(2, 2, 76);
+}
+.card{
+    background-color: rgb(2, 2, 76);
+    color: white;
+}
+
+.game_btn{
+    
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height:50px;
+}
+
+.game_btn button{
+    color: white;
+}
+.game_btn button:hover{
+    color:red;
+}
+
+
+
+.nav-container{
+    position:relative;
+    
+}
+
+.nav1{
+    /* border-bottom:1px solid red; */
+    width:80%;
+    height: 60px;
+    /* background-color: black; */
+    position: relative;
+    
+    margin-left:100px
+}
+
+.nav2{
+    margin-right: 150px;
+}
+
+.nav1::after{
+    content:'';
+    width: 103%;
+    height: 100%;
+
+    position:absolute;
+    top:0;
+    left:-60px;
+
+    background:transparent;
+    border-bottom: 1px solid white;
+   
+}
+
+.nav-container::before{
+    content:'';
+    width: 85px;
+    height: 130px;
+
+    position:absolute;
+    top:0;
+    left:-50px;
+
+    background:transparent;
+    border-right: 1px solid white;
+    transform: skew(-33deg);
+}
+
+.btn1,.btn2,.btn3{
+    position: relative;
+}
+.btn1::before{
+    content:'';
+    width: 90px;
+    height: 45px;
+
+    position:absolute;
+    top:0;
+    right:0px;
+
+    background:transparent;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    transform: skew(-30deg);
+}
+.btn2::before{
+    content:'';
+    width: 90px;
+    height: 45px;
+
+    position:absolute;
+    top:0;
+    left:20px;
+
+    background:transparent;
+    
+    border-right: 1px solid white;
+    transform: skew(-30deg);
+}
+.btn3::before{
+    content:'';
+    width: 90px;
+    height: 45px;
+
+    position:absolute;
+    top:0;
+    left:30px;
+
+    background:transparent;
+    
+    border-right: 1px solid white;
+    transform: skew(-30deg);
+}
+.location{
+    margin-right: 300px;
+}
+.phone-icon{
+    height: 100%;
+    padding-top: 20px;
+    position: relative;
+   
+}
+.phone-icon::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+
+    position:absolute;
+    top:0;
+    left:20px;
+
+    background:transparent;
+    border-right: 1px solid white;
+    transform: skew(-33deg);
+}
+.icon1,.icon2,.icon3,.icon4,.icon5{
+    height: 100%;
+    padding-top: 20px;
+    position: relative;
+}
+.icon1::before,.icon2::before,.icon3::before,.icon4::before,.icon5::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+
+    position:absolute;
+    top:0;
+    left:15px;
+
+    background:transparent;
+    border-right: 1px solid white;
+    transform: skew(-33deg);
+}
